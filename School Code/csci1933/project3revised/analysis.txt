@@ -1,0 +1,20 @@
+Method                   ArrayList Runtime LinkedList     Runtime Explanation
+boolean add(T element)          O(n)           O(n)         The normal runtime for ArrayList add is O(1), as we simply
+have to update an index. However, because the resize is sometimes needed, and a for loop is run in this, this time is
+O(n). The LinkedList method always runs at O(n), as we have to call to get the next node until we are at the last node,
+meaning it depends on the number of elements before it.
+int getMax()                     O(n)           O(n)        Both of these use loops to check each element in order
+to see if it is smaller than all the previous values. Therefore both are O(n), as both are dependent on the number
+of elements in the list.
+void removeDuplicates()          O(n^2)           O(n^2)     The time complexity of ArrayList removeDuplicates is O(n^2)
+as for each element in the first list, the index of this element is checked in a new list to see if it should be added.
+This means two for loops are called within each other. The linked list implementation uses the same method, where for
+each element it is indexed into the new list to see if it should be added or not. Therefore both are O(n^2).
+void reverse()                   O(n)           O(n)      The ArrayList uses a for loop to switch the values of the
+first and last element, and is therefore O(n) time. For the linked list I also found a cool solution and made it run
+in O(n) time, as for each element a new node is added, which points to the elements after it, therefore reversing the
+order. Therefore both are O(n) time.
+
+We have found that both run in the same time complexity for the selected test, as so can mostly be used
+interchangeably. In conclusion, I would conclude that arrays are good when indexing is required frequently,
+while linked lists would be better for when a changing size is needed for data storage.
