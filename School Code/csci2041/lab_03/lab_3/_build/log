@@ -1,0 +1,6 @@
+# dune init proj lab_3
+# OCAMLPARAM: unset
+# Shared cache: disabled
+# Shared cache location: /home/jacobwittrig/.cache/dune/db
+# Workspace root: /home/jacobwittrig/projects/csci2041/lab_03/lab_3
+# Auto-detected concurrency: 20

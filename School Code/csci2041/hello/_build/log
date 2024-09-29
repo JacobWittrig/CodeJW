@@ -1,0 +1,16 @@
+# dune exec hello
+# OCAMLPARAM: unset
+# Shared cache: disabled
+# Shared cache location: /home/jacobwittrig/.cache/dune/db
+# Workspace root: /home/jacobwittrig/projects/csci2041/hello
+# Auto-detected concurrency: 20
+# Dune context:
+#  { name = "default"
+#  ; kind = "default"
+#  ; profile = Dev
+#  ; merlin = true
+#  ; fdo_target_exe = None
+#  ; build_dir = In_build_dir "default"
+#  ; instrument_with = []
+#  }
+$ /usr/bin/ocamlc.opt -config > /tmp/dune_cebb7d_output
