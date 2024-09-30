@@ -1,3 +1,0 @@
-spell_check> add nuclear
-spell_check> print
-spell_check> exit

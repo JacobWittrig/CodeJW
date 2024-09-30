@@ -1,2 +1,0 @@
-spell_check> check file_does_not_exist.txt
-spell_check> exit

@@ -1,2 +1,0 @@
-spell_check> print
-spell_check> exit

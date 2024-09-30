@@ -1,5 +1,0 @@
-list> insert Mario
-list> insert Luigi
-list> insert Toad
-list> print
-list> exit
